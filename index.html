@@ -1,0 +1,194 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
+
+  <link rel="stylesheet" href="css/vazir.css">
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="theme-color" content="#fafafa">
+  
+</head>
+
+<body>
+<header>
+  <div id="SideNav" class="fixed p-2">
+    <h1>Meraj</h1>
+    <nav class="d-flex align-items-center">
+      <ul class="list-style-none">
+        <li><a href="#Home" class="d-flex align-items-center"><img src="icons/home-outline.svg" class="font-icon">Home</a></li>
+        <!--<li><a href="#About" class="d-flex align-items-center"><img src="icons/person-outline.svg" class="font-icon">About</a></li> -->
+        <li><a href="#Skills" class="d-flex align-items-center"><img src="icons/podium-outline.svg" class="font-icon">Skills</a></li>
+        <li><a href="#Portfolio" class="d-flex align-items-center"><img src="icons/reader-outline.svg" class="font-icon">Portfolio</a></li>
+        <li><a href="#" class="d-flex align-items-center" onclick="sendEmail()"><img src="icons/mail-outline.svg" class="font-icon">Contact</a></li>
+      </ul>
+  </nav>
+  </div>
+<nav id="MobileNav" class="fixed">
+  <div class="container h-100">
+    <ul class="d-flex justify-content-between align-items-center list-style-none">
+      <li><a href="#Home" class="d-flex align-items-center"><img src="icons/home-outline.svg" class="font-icon"></a></li>
+      <li><a href="#Skills" class="d-flex align-items-center"><img src="icons/podium-outline.svg" class="font-icon"></a></li>
+      <li><a href="#Portfolio" class="d-flex align-items-center"><img src="icons/reader-outline.svg" class="font-icon"></a></li>
+      <li><a href="#" class="d-flex align-items-center" onclick="sendEmail()"><img src="icons/mail-outline.svg" class="font-icon"></a></li>
+    </ul>
+  </div>
+</nav>
+</header>
+  
+<main>
+<section id="Home" class="page">
+  <div class="container h-100">
+<div class="py-2 center">
+  <img src="img/profile.jpg" class="profile border-circle" alt="Meraj">
+  <h1 class="m-0 mt-1">Meraj</h1>
+  <h5 class="text-light m-0">Programmer</h5>
+  <a class="btn btn-danger border-circle mt-3" href="#" onclick="sendEmail()">Hire Me</a>
+</div>
+</div>
+</section>
+<!--<section id="About" class="page">
+  <div class="container h-100">
+  <div class="py-2 center">
+    <p>Hi,I`m Meraj</p>
+    <div class="social-media">
+      <ul class="list-style-none d-flex">
+        <li><a class="twitter" href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+        <li><a class="telegram px-2" href="#"><ion-icon name="send-outline"></ion-icon></a></li>
+        <li><a class="Github pr-2" href="#"><ion-icon name="logo-github"></ion-icon></a></li>
+        <li><a class="email" href="#"><ion-icon name="mail-outline"></ion-icon></a></li>
+      </ul>
+  </div>
+  </div>
+</div>
+  </section> -->
+  <section id="Skills" class="page">
+    <div class="container h-100">
+    <div class="py-2">
+      <p>I love programming a LOT :)</p>
+      <div>
+        <div>
+        <h3>Programming Languages:</h3>
+        <ul class="list-style-none">
+          <li><img src="img/php.png" alt="PHP">PHP</li>
+          <li><img src="img/golang.png" alt="golang">Go</li>
+          <li><img src="img/Kotlin.png" alt="Kotlin">Kotlin</li>
+          <li><img src="img/JavaScript.png" alt="JavaScript">JavaScript</li>
+          <li><img src="img/cpp.png" alt="c++">C++</li>
+          <li><img src="img/sql.png" alt="sql">SQL</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Web Technologies:</h3>
+          <ul class="list-style-none">
+            <li><img src="img/html.png" alt="HTML">HTML</li>
+            <li><img src="img/css.png" alt="css">CSS</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Frameworks</h3>
+            <ul class="list-style-none">
+              <li><img src="img/Laravel.png" alt="Laravel">Laravel</li>
+              <li><img src="img/vuejs.png" alt="vuejs">Vue</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Data Management</h3>
+              <ul class="list-style-none">
+                <li><img src="img/mysql.png" alt="MySql">MySql</li>
+                <li><img src="img/PostgreSQL.png" alt="MySql">PostgreSQL</li>
+                </ul>
+              </div>
+          <div>
+            <h3>Data Modelling</h3>
+            <ul class="list-style-none">
+              <li><img src="img/json.png" alt="JSON">JSON</li>
+              <li><img src="img/xml.png" alt="css">XML</li>
+              </ul>
+            </div>
+      
+      </div>
+   
+   
+    </div>
+  </div>
+    </section>
+    <section id="Portfolio" class="page">
+      <div class="container h-100">
+      <div class="py-2">
+        <div class="row">
+          <div class="card">
+            <img src="img/TwitterFarsiTrends.jpg" alt="TwitterFarsiTrends">
+            <h3>Twitter Farsi Treds</h3>
+            <ul>
+              <li>Android App</li>
+              <li>Kotlin</li>
+              <li>Api: PHP / Laravel</li>
+            </ul>
+            <p class="text-muted">E2E encryption between client and server to get lastest trends</p>
+          </div>
+          <div class="d-flex card v2">
+            <img src="img/ineedproxy.jpg" alt="ineedproxy">
+            <div>
+            <h3>I Need Proxy</h3>
+            <ul>
+              <li>Android App</li>
+              <li>Kotlin</li>
+              <li>Api: PHP</li>
+              <li>Telegram bot: PHP</li>
+            </ul>
+            <p class="text-muted">an auto mtproto getter in php</p>
+          </div>
+          </div>
+          <div class="card">
+            <img src="img/iranarma.png" alt="iranarma">
+            <h3>Iran Arma</h3>
+            <ul>
+              <li>Website</li>
+              <li>Wordpress / php</li>
+            </ul>
+            <p class="text-muted">IranArma Website</p>
+          </div>
+          </div>
+      </div>
+      </div>
+    </div>
+      </section>
+</main>
+<footer>
+  
+</footer>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
